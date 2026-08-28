@@ -49,7 +49,7 @@ Recurso / FerramentaPrometheusGrafanaUptime Kuma**Função Principal**Coleta e a
 
 ## Passo a passo: Como configurar Prometheus e Grafana no VPS
 
-Implementar sua própria stack de monitoramento não precisa ser complexo. Abaixo, estruturei um passo a passo prático utilizando Docker Compose, que é a forma mais rápida e segura de colocar o ambiente para rodar em qualquer [VPS Host You Secure](https://yousecure.io/comprar-vps-brasil).
+Implementar sua própria stack de monitoramento não precisa ser complexo. Abaixo, estruturei um passo a passo prático utilizando Docker Compose, que é a forma mais rápida e segura de colocar o ambiente para rodar em qualquer [VPS Host You Secure](https://yousecure.io/).
 
 - **Preparar o ambiente Docker:** Certifique-se de que o Docker e o Docker Compose estão instalados no seu servidor Linux atualizado.
 - **Criar o arquivo docker-compose.yml:** Defina os serviços do Prometheus, Node Exporter (responsável por coletar as métricas do SO) e Grafana no mesmo arquivo de configuração.
